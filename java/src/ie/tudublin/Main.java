@@ -1,5 +1,7 @@
 package ie.tudublin;
 
+// this is a git test
+
 public class Main
 {
     public static void main(String[] args)
@@ -9,6 +11,15 @@ public class Main
         Animal misty = new Dog("Misty");
 
         Animal topCat = new Cat("TopCat");
+
+        Cat ginger = new Cat("Ginger");
+        
+        int x = 0;
+        while (x < 9)
+        {
+            ginger.kill();
+            x++; 
+        }
 
         System.out.println(misty);
         System.out.println(topCat);
