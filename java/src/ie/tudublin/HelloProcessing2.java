@@ -27,41 +27,6 @@ public class HelloProcessing2 extends PApplet
 	boolean b;
 	
 	public void draw()
-<<<<<<< HEAD
-	{	
-		if (mouseY < 250){
-			background(255,0,0);
-		
-			noStroke();
-
-			fill(255,255,0);
-			circle(250, 300, 400);
-
-			fill(0, 255, 255);
-			triangle(250, 50, 50, 450, 450, 450);
-		
-			fill(255,255,255);
-			ellipse(250, 250, 180, 100);
-		
-			fill(0,0,0);
-			circle(250, 250, 70);
-		}
-		
-		else{
-			background(255,0,0);
-		
-			noStroke();
-
-			fill(255,255,0);
-			circle(250, 300, 400);
-
-			fill(0, 255, 255);
-			triangle(250, 50, 50, 450, 450, 450);
-		
-			
-		}
-		
-=======
 	{	// Takes 1 or 3 parameters. 1 is greyscale, 3 is RGB
 		background(0);         
 
@@ -106,6 +71,5 @@ public class HelloProcessing2 extends PApplet
 
 		line(20, 400, 200, 410);
 
->>>>>>> c4a18d12e4e5547fac08b279e87970bab6a8deef
 	}
 }
