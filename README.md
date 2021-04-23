@@ -2,9 +2,9 @@
 
 # Teams Links for online classes:
 
-- [Monday Class](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjUzNjZlMDMtOTNhZi00MDYyLThkODgtNzQxYjBjZDY3YTg0%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
-- [Wednesday Labs](https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWVjNDM4NTAtOGJhOC00MjEyLTkzMTMtNzA3OTgwOGNhZTYw%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
-- [Thursday Tutorial](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGU3Mzg3N2YtMzkxZC00OThjLWFmNjItYzVlNDZhNWY5OWY2%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
+- [Monday 12:00-14:00 Class](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjUzNjZlMDMtOTNhZi00MDYyLThkODgtNzQxYjBjZDY3YTg0%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
+- [Wednesday 16:00-18:00 Labs](https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWVjNDM4NTAtOGJhOC00MjEyLTkzMTMtNzA3OTgwOGNhZTYw%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
+- [Thursday 09:00 Tutorial](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGU3Mzg3N2YtMzkxZC00OThjLWFmNjItYzVlNDZhNWY5OWY2%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
 - [Sign in Sheet for labs](https://docs.google.com/spreadsheets/d/1dpzq-iS3DPHBin2oT_txSlmsIEVo_zs524FemMm-2vI/edit?usp=sharing)
 
 Resources
@@ -39,8 +39,124 @@ Resources
 - https://github.com/skooter500/OOP_Labtest1_2017_Starter
 - https://github.com/skooter500/OOP-LabTest1-2016
 
+# Week 11 - Polymorphism, interfaces & strings
+
+## Tutorial
+- [Video of the tutorial](https://web.microsoftstream.com/video/e67cfa85-c011-48b2-998c-93a851add4da)
+- Solution to the lab test is in the "solution" branch of this repo
+
+## Lab
+- [Link to the test](https://github.com/skooter500/OOP-Test-2021-Starter)
+
+## Lecture
+- [Video of the class](https://youtu.be/QVWeU7rFlo4)
+
+Solution to [this coding bat problem](https://codingbat.com/prob/p123614):
+
+```Java
+public int countCode(String str) {
+  int loc = str.indexOf("co");
+  int count = 0;
+  while(loc != -1)
+  {
+    if (str.length() > loc + 3 && str.charAt(loc + 3) == 'e')
+    {
+      count ++;
+    }
+    loc = str.indexOf("co", loc + 2);
+  }
+  return count;
+}
+```
+
+## Lab
+- [Lab Test]()
+
+
+# Week 10 - Inheritance & Abstract Classes, Bullets in the YASC game
+## Lecture
+- [Video of the class](https://web.microsoftstream.com/video/07c190ba-948c-48ea-be72-552ef0a99526)
+- [Inheritance](https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html)
+- [Abstract classes](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html)
+
+## Tutorial
+- [Video of the tutorial](https://web.microsoftstream.com/video/29f434db-4070-4871-a478-89ace8df2768?list=studio)
+
+# Week 9 - YASC
+
+## Tutorial
+- [Video of the tutorial](https://web.microsoftstream.com/video/d6815f87-624b-43a6-8331-7c7b912a10d4?list=studio)
+
+## Lecture
+- [Download YASC](https://skooter500.itch.io/)
+- [YASC code](http://github.com/skooter500/YASC)
+- [Video of the class](https://web.microsoftstream.com/video/a5104e6c-40a7-4ff7-b131-cffed3913220?list=studio)
+
+## Lab
+
+### Part 1
+
+Fork [this repo](https://github.com/skooter500/MusicVisuals) which has the starter code and examples for your assignment. Clone your fork and make sure it compiles and runs ok. 
+
+### Part 2
+
+Today you can make two more classes to encapsulate the behaviour of health and ammo powerups as per this video:
+
+[![YouTube](http://img.youtube.com/vi/Bfr0S6oTBsc/0.jpg)](https://www.youtube.com/watch?v=Bfr0S6oTBsc)
+
+
+To complete this lab!
+
+- Update your forks of the master branch to get the code for the moveable Player we made in Monday's class. Create a branch for your work today.
+- Make a class called Health. Initially it should spawn off screen and move in a random direction onscreen. It could spawn from the top, bottom, left or right side of the screen. You can use yasc.random to generate random numbers. I wrote a respawn method on the class and call it from the constructor to set the initial x, y, dx and dy values. Notice how the health is drawn and notice in the video that the health is rotating as well as moving. If the health goes off the side of the screen it should respawn. Don't forget to create an instance of the Health in YASC.java and call update and render.
+- Do the same for Ammo
+- Add health and ammo fields to the Player class and print the health and ammo beside the player
+- Add code in YASC.java to check collisions between the player and either of the powerups and add to the player's health and ammo stats. To check collisions, you can check id the distance between the player and the powerup < the sum of the two radii. You can use the ```dist``` function to calculate the distance. 
+
+# Week 8 - Frequency Domain Analysis, transcription, frequency bands
+## Lecture
+- [Video of the class](https://web.microsoftstream.com/video/e9483fdd-c3d6-4b48-a88b-8adbf7752175)
+	- FFT visualisation, transcription, audio bands
+
+## Tutorial
+- [Video of the tutorial](https://web.microsoftstream.com/video/c3027ca1-ed72-432d-be2c-c09bb9683fc8)
+	- We did some coding bat exercises and also made a 3D cube that responds to sound:
+
+![Image](images/p40.png)
+
+No lab due to the bank holiday
+
 # Week 7 - Audio
+
+## Tutorial
+- [Video of the Tutorial](https://web.microsoftstream.com/video/9dcc9000-39e8-4fce-a0e6-a9f75084f6f9?list=studio)
+
+## Lab 
+### Learning Outcomes
+- Practice for loops
+- Demonstrate an understanding of how digital audio works
+- Practice computational thinking and problem solving
+- Have fun making beautiful things 
+
+Update your forks and have a look at Audio1.java this is the code we wrote on Monday with some modifications. Checkout the ```keyPressed``` function. This starts and restarts the audio file when you press space. Also it sets the value of the ```which``` variable to be the numbers 0-5 when you press the appropriate key on the keyboard. If your computer wont play the audio file for some reason,you can uncomment the code to read audio from the microphone instead or use a .wav file instead.
+
+Ok now check out this video of 5 visuals you can make today. Pressing the keys 0-4 on the keyboard should change the visual in your sketch.
+
+[![YouTube](http://img.youtube.com/vi/xF7VrXZqLko/0.jpg)](https://www.youtube.com/watch?v=xF7VrXZqLko)
+
+- 0 - The wavy lines visual
+- 1 - The waveform
+- 2 - The waveform drawn down the 4 sides of the screen
+- 3 - The circle - Use the lerped amplitude to control the size of the circle
+- 4 - The square - Again use the lerped amplitude to control the size of the square. You can also use rectMode(CENTER) to make the x and y parameters of the rect function determine the center of the rect rather than the coordinates of the top left corner
+- 5 - There is no visual associated with 5 in the video, so come up with your own!
+
+## Lecture
+
 - [Minim library reference](http://code.compartmental.net/minim/)
+- [Video of the class](https://web.microsoftstream.com/video/530ea615-e38c-4c13-819d-d2b39a90519e?list=studio)
+- [lerp](https://processing.org/reference/lerp_.html)
+- [Audio1.java](java/src/ie/tudublin/Audio1.java)
 
 Some audio responsive stuff I have been working on recently:
 
@@ -60,6 +176,9 @@ Some audio responsive stuff I have been working on recently:
 - Develop problem solving & algorithm design skills
 
 Try this [lab test from last year](https://github.com/skooter500/OOP-LabTest-2020-Starter). You can use the StarMap example we made in the class on Monday for help.
+
+## Tutorial
+- [Video of the tutorial (Solution to the lab)](https://web.microsoftstream.com/video/d11928a7-1195-4116-9fa0-1f59a7ef9c4e?list=studio)
 
 ## Lecture
 - [Video of the class](https://web.microsoftstream.com/video/2c196702-f54f-47ad-abf0-be8455d20d02)
